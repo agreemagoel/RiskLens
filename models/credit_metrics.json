@@ -1,0 +1,26 @@
+{
+  "comparison": [
+    {
+      "model": "logistic_regression",
+      "precision": 0.2096,
+      "recall": 0.7686,
+      "f1": 0.3293,
+      "roc_auc": 0.86
+    },
+    {
+      "model": "random_forest",
+      "precision": 0.2221,
+      "recall": 0.7721,
+      "f1": 0.345,
+      "roc_auc": 0.8665
+    },
+    {
+      "model": "xgboost",
+      "precision": 0.2273,
+      "recall": 0.7397,
+      "f1": 0.3478,
+      "roc_auc": 0.8616
+    }
+  ],
+  "best_model": "random_forest"
+}

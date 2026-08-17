@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-08-17T07:49:38.144788",
+  "columns": {
+    "Amount": {
+      "drift_score": 0.0711,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": false
+    },
+    "Hour": {
+      "drift_score": 1.2719,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": true
+    },
+    "V1": {
+      "drift_score": 0.1723,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": true
+    },
+    "V2": {
+      "drift_score": 0.0686,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": false
+    },
+    "V3": {
+      "drift_score": 0.5809,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": true
+    },
+    "V4": {
+      "drift_score": 0.1831,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": true
+    },
+    "V10": {
+      "drift_score": 0.0573,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": false
+    },
+    "V14": {
+      "drift_score": 0.1818,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": true
+    },
+    "V17": {
+      "drift_score": 0.1128,
+      "method": "Wasserstein distance (normed)",
+      "threshold": 0.1,
+      "drifted": true
+    }
+  },
+  "drifted_columns_count": 6.0,
+  "drifted_columns_share": 0.6666666666666666
+}

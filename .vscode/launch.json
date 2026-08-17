@@ -1,0 +1,52 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "FastAPI: RiskLens API",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "args": ["api.main:app", "--reload", "--port", "8000"],
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "Streamlit: RiskLens Dashboard",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "streamlit",
+            "args": ["run", "dashboard/app.py"],
+            "cwd": "${workspaceFolder}",
+            "justMyCode": true
+        },
+        {
+            "name": "Run: Preprocessing",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.data.preprocessing",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run: Train Fraud Model",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.models.fraud_model",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run: Train Credit Model",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.models.credit_model",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

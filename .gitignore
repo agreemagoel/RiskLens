@@ -1,0 +1,41 @@
+# Data (large/regenerable - see README Setup section to rebuild)
+data/raw/*.csv
+data/processed/*.csv
+data/processed/*.parquet
+data/processed/*.db
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models (large binaries - regenerate via `python -m src.models.*`)
+*.pkl
+*.joblib
+*.json.model
+!models/.gitkeep
+
+# MLflow
+mlruns/*
+!mlruns/.gitkeep
+mlflow.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env
+.env
+
+# OS
+.DS_Store
+
+# Docker
+*.log
+
+# Streamlit
+.streamlit/secrets.toml

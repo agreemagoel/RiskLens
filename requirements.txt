@@ -1,0 +1,34 @@
+# --- Core data / ML ---
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+xgboost>=2.0.0
+shap>=0.44.0
+scipy>=1.11.0
+
+# --- API ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+pydantic>=2.6.0
+
+# --- Dashboard ---
+streamlit>=1.32.0
+plotly>=5.20.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# --- MLOps / Monitoring ---
+mlflow>=2.11.0
+evidently>=0.4.20
+
+# --- Utilities ---
+joblib>=1.3.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# --- Testing ---
+pytest>=8.0.0
+
+# --- Notebooks ---
+jupyter>=1.0.0
+ipykernel>=6.29.0
